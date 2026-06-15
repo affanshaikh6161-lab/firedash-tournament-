@@ -30,6 +30,9 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Capacitor: export static HTML
+  output: 'export',
+  trailingSlash: true,
 };
 
 export default nextConfig;

@@ -1,0 +1,12 @@
+.*
+*.map
+*.ts
+!capacitor.config.ts
+!tsconfig.json
+coverage
+node_modules
+dist
+build
+.next
+out
+android/app/src/main/assets/public

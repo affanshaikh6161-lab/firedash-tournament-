@@ -24,7 +24,7 @@ if errorlevel 1 (
 )
 echo [OK] Java found
 
-if "%ANDROID_HOME%"=="" (
+if "%ANDROID_HOME%"==" (
     echo ERROR: ANDROID_HOME environment variable not set
     exit /b 1
 )
